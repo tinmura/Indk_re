@@ -46,7 +46,6 @@ def main():
     plt.plot(lowpassfilter(ynoise, 5))
 
 
-    """
     fig,ax = plt.subplots(3, 3, tight_layout = True)
     plt.subplots_adjust(wspace=0.5, hspace=0.5)
 
@@ -60,7 +59,6 @@ def main():
     ax[2,0].plot(xsfft[1 : N//2], crr[1 : N//2])
     ax[2,1].plot(xsfft[1 : N//2], err[1 : N//2])
     ax[2,2].plot(xsfft[1 : N//2], ave[1 : N//2])
-    """
 
     plt.show()
 
